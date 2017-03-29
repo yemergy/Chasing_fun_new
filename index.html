@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Thu Mar 23 2017 17:22:57 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Mar 29 2017 07:48:37 GMT+0000 (UTC)  -->
 <html data-wf-page="587b5acabf7c9f387470c3c8" data-wf-site="587b5acabf7c9f387470c3ca">
 <head>
   <meta charset="utf-8">
@@ -45,14 +45,14 @@
 <body class="rtl">
   <div class="signup" id="Signup">
     <div class="w-container">
-      <h1 class="h1 white">איך מתקדמים?</h1>
-      <p class="reg-txt whit">מלאו את טופס ההרשמה הקצר
-        <br>וחכו טיפה אנחנו כבר ניצור אתכם קשר להשלמת הפרטים</p>
       <div class="lead-form w-form">
-        <form data-name="EmailForm" data-redirect="http://chasingfun.webflow.io/thankyou" id="wf-form-EmailForm" method="post" name="wf-form-EmailForm" redirect="http://chasingfun.webflow.io/thankyou">
+        <form data-name="EmailForm" id="wf-form-EmailForm" method="post" name="wf-form-EmailForm">
+          <h1 class="h1 white">איך מתקדמים?</h1>
+          <p class="reg-txt whit">מלאו את טופס ההרשמה הקצר
+            <br>וחכו טיפה אנחנו כבר ניצור אתכם קשר להשלמת הפרטים</p>
           <input class="field w-input" data-name="Full Name" id="Full-Name" maxlength="256" name="Full-Name" placeholder="* שם מלא" required="required" type="text">
           <input class="field w-input" data-name="Phone" id="Phone" maxlength="256" name="Phone" placeholder="* טלפון" required="required" type="text">
-          <input class="field w-input" data-name="Email" id="Email" maxlength="256" name="Email" placeholder="* אימייל" required="required" type="email">
+          <input class="field w-input" data-name="Email" id="Email" maxlength="256" name="Email" placeholder="אימייל" type="text">
           <select class="field w-select" data-name="Plan" id="Plan-5" name="Plan" required="required">
             <option value="לא נבחרה חבילה">בחרו חבילה</option>
             <option value="Another ChoiceChasing fun classic">1 - Chasing fun classic – all include</option>
@@ -62,34 +62,44 @@
           </select>
           <input class="coupon field w-input" data-name="coupon" id="coupon" maxlength="256" name="coupon" placeholder="קופון (לא חובה)" type="text">
           <input class="submit w-button" data-wait="שולח.." type="submit" value="הרשמה">
+          <div class="prograss-row w-hidden-small w-hidden-tiny w-row">
+            <div class="w-col w-col-2"><img class="s-ucib" src="images/files.svg">
+              <p class="reg-txt smaller ss whit">קבלת קובץ הכנה לטיול</p>
+            </div>
+            <div class="w-col w-col-2"><img class="s-ucib" src="images/payment.svg">
+              <p class="reg-txt smaller ss whit">תשלום מקדמה</p>
+            </div>
+            <div class="w-col w-col-2"><img class="s-ucib" src="images/flight.svg">
+              <p class="reg-txt smaller ss whit">סגירת טיסה</p>
+            </div>
+            <div class="w-col w-col-2"><img class="s-ucib" src="images/customer.svg">
+              <p class="reg-txt smaller ss whit">הפניה למשרד הנסיעות לבדיקת זמינות טיסה והצעת מחיר</p>
+            </div>
+            <div class="w-col w-col-2"><img class="s-ucib" src="images/signup.svg">
+              <p class="reg-txt smaller ss whit">השלמת פרטים</p>
+            </div>
+            <div class="w-col w-col-2">
+              <div class="white-big-txt">מה
+                <br>המשך התהליך</div>
+            </div>
+          </div>
         </form>
         <div class="success w-form-done">
-          <div><strong>תודה! הרשמתך התקבלה בהצלחה!</strong>
-            <br>חכו קצת, ממש בקרוב נחזור אלייך להשלמת פרטים.</div>
+          <div class="w-row">
+            <div class="w-col w-col-2"></div>
+            <div class="w-col w-col-8">
+              <h1 class="h1 white">בוםםם , עשיתם עוד צעד לחופש!</h1>
+              <p class="reg-txt whit">מרגישים את זה? אז עד שנחזור אליכם צפו בסרטון שייקח את הרגש שלכם למקומות הנכונים. תהנו!
+              </p>
+              <div class="w-embed w-video" style="padding-top: 56.17021276595745%;">
+                <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FIMcH-witTwk%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIMcH-witTwk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIMcH-witTwk%2Fhqdefault.jpg&key=c4e54deccf4d4ec997a64902e9a30300&type=text%2Fhtml&schema=youtube" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            <div class="w-col w-col-2"></div>
+          </div>
         </div>
         <div class="w-form-fail">
           <div class="error">אופס, משהו השתבש. נסו לרענן את העמוד ולהרשם בשנית.</div>
-        </div>
-      </div>
-      <div class="prograss-row w-hidden-small w-hidden-tiny w-row">
-        <div class="w-col w-col-2"><img class="s-ucib" src="images/files.svg">
-          <p class="reg-txt smaller ss whit">קבלת קובץ הכנה לטיול</p>
-        </div>
-        <div class="w-col w-col-2"><img class="s-ucib" src="images/payment.svg">
-          <p class="reg-txt smaller ss whit">תשלום מקדמה</p>
-        </div>
-        <div class="w-col w-col-2"><img class="s-ucib" src="images/flight.svg">
-          <p class="reg-txt smaller ss whit">סגירת טיסה</p>
-        </div>
-        <div class="w-col w-col-2"><img class="s-ucib" src="images/customer.svg">
-          <p class="reg-txt smaller ss whit">הפניה למשרד הנסיעות לבדיקת זמינות טיסה והצעת מחיר</p>
-        </div>
-        <div class="w-col w-col-2"><img class="s-ucib" src="images/signup.svg">
-          <p class="reg-txt smaller ss whit">השלמת פרטים</p>
-        </div>
-        <div class="w-col w-col-2">
-          <div class="white-big-txt">מה
-            <br>המשך התהליך</div>
         </div>
       </div>
     </div>

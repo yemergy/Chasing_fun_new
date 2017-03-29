@@ -528,7 +528,7 @@
 .signup {
   padding-top: 2px;
   padding-bottom: 2px;
-  background-color: hsla(0, 0%, 100%, 0);
+  background-color: transparent;
 }
 
 .field {
