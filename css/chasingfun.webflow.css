@@ -1087,6 +1087,7 @@ html.w-mod-js *[data-ix="hide-read-more"] {
     padding-bottom: 40px;
   }
   .signup {
+    height: 655px;
     padding-top: 35px;
     padding-bottom: 35px;
   }
@@ -1151,6 +1152,9 @@ html.w-mod-js *[data-ix="hide-read-more"] {
   }
   .prices-section {
     padding: 20px 5px;
+  }
+  .signup {
+    height: 500px;
   }
   .field {
     width: 80%;
@@ -1242,6 +1246,7 @@ html.w-mod-js *[data-ix="hide-read-more"] {
     padding-bottom: 15px;
   }
   .signup {
+    height: 450px;
     padding: 20px 5px;
   }
   .field {
